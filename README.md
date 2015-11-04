@@ -17,7 +17,7 @@ Art Games Test
 
 **Required tasks**
 
- - [ ] Build a search script that traverse data.json and returns search results based on input
+ - [ ] Build a search script that traverse [data.json](https://github.com/theartgames/test/blob/master/data.json) and returns search results based on input
  - [ ] Build a basic interface (HTML/CSS) that uses the script above and outputs results
 
 **Optional tasks** earns extra XP points here
