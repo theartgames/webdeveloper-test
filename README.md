@@ -5,7 +5,6 @@ Art Games - Web Developer Test
  - [data.json](https://github.com/theartgames/test/blob/master/data.json) which contains a product list (fields described below)
  - EURO as currency for price fields ( &euro; )
  - index.php as entry point
- - daniel@artgames.ro as additional help information
 
 **You can**
 
