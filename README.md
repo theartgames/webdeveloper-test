@@ -13,6 +13,8 @@ Art Games - Web Developer Test
  - Import or use any libraries you want as long as you add reference to them
  - Use any of the following languages: JS, PHP
  - Make errors
+ - Fork/Star/Download this repository and create pull requests
+ - Improve this test
  - Be creative
 
 **Required tasks**
