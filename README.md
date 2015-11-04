@@ -2,7 +2,7 @@ Art Games Test
 =
 **You have**
 
- - data.json which contains a list (fields described below)
+ - data.json which contains a product list (fields described below)
  - EURO as currency for price fields ( &euro; )
  - index.php as entry point
  - daniel@artgames.ro as additional help information
