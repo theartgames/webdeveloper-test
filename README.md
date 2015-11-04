@@ -63,10 +63,13 @@ Art Games - Web Developer Test
 
 ## License
 ![License](https://i.creativecommons.org/l/by-nc/4.0/80x15.png)
+
 [Art Games - Web Developer Test](https://github.com/theartgames/test) by [ART GAMES](http://www.artgames.ro) is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/).
 
 ## Contributors
-[Ionuț Albu](https://github.com/runzway)
+
+ - [Ionuț Albu](https://github.com/runzway) ionut@artgames.ro
 
 ## Author
-[Daniel Plăcintă](https://github.com/akizor)
+
+ - [Daniel Plăcintă](https://github.com/akizor) daniel@artgames.ro
