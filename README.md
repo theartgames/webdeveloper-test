@@ -61,5 +61,12 @@ Art Games - Web Developer Test
  - *auction*
 	 - (string) Product category
 
+## License
+![License](https://i.creativecommons.org/l/by-nc/4.0/80x15.png)
+[Art Games - Web Developer Test](https://github.com/theartgames/test) by [ART GAMES](http://www.artgames.ro) is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/).
+
+## Contributors
+[Ionuț Albu](https://github.com/runzway)
+
 ## Author
 [Daniel Plăcintă](https://github.com/akizor)
