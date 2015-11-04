@@ -60,3 +60,6 @@ Art Games - Web Developer Test
 	 - (string) Concatenation of lot_emin and lot_emax
  - *auction*
 	 - (string) Product category
+
+## Author
+[Daniel Plăcintă](https://github.com/akizor)
