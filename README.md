@@ -1,4 +1,4 @@
-Art Games Test
+Art Games - Web Developer Test
 =
 **You have**
 
@@ -11,7 +11,7 @@ Art Games Test
 
  - Add any .css/.js file you want
  - Import or use any libraries you want as long as you add reference to them
- - Use any of the following languages: JS, PHP, Python
+ - Use any of the following languages: JS, PHP
  - Make errors
  - Be creative
 
