@@ -2,7 +2,7 @@ Art Games Test
 =
 **You have**
 
- - data.json which contains a product list (fields described below)
+ - [data.json](https://github.com/theartgames/test/blob/master/data.json) which contains a product list (fields described below)
  - EURO as currency for price fields ( &euro; )
  - index.php as entry point
  - daniel@artgames.ro as additional help information
@@ -30,7 +30,7 @@ Art Games Test
  - [ ] Search and show results without leaving or refreshing the page
  - [ ] Store user's recent searches
 
-**data.json Fields explanation**
+**[data.json](https://github.com/theartgames/test/blob/master/data.json) Fields explanation**
 
  - *aname*
 	 - (string) Artist Name (you can treat it as manufacturer/brand)
