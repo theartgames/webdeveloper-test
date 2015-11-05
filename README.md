@@ -1,4 +1,4 @@
-Art Games - Web Developer Test
+Web Developer Test
 =
 **You have**
 
