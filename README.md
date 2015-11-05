@@ -30,6 +30,7 @@ Art Games - Web Developer Test
  - [ ] Interface has working sorting options
  - [ ] Search and show results without leaving or refreshing the page
  - [ ] Store user's recent searches
+ - [ ] Clean coding style
 
 **[data.json](https://github.com/theartgames/test/blob/master/data.json) Fields explanation**
 
