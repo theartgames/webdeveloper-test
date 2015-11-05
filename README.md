@@ -2,7 +2,7 @@ Web Developer Test
 =
 **You have**
 
- - [data.json](https://github.com/theartgames/test/blob/master/data.json) which contains a product list (fields described below)
+ - [data.json](https://github.com/theartgames/webdeveloper-test/blob/master/data.json) which contains a product list (fields described below)
  - EURO as currency for price fields ( &euro; )
  - index.php as entry point
 
@@ -16,12 +16,12 @@ Web Developer Test
  - Improve this test
  - Be creative
 
-**Required tasks**
+**You must**
 
- - [ ] Build a search script that traverse [data.json](https://github.com/theartgames/test/blob/master/data.json) and returns search results based on input
+ - [ ] Build a search script that traverse [data.json](https://github.com/theartgames/webdeveloper-test/blob/master/data.json) and returns search results based on input
  - [ ] Build a basic interface (HTML/CSS) that uses the script above and outputs results
 
-**Optional tasks** earns extra XP points here
+**You may consider** (*optional but grants extra XP points*)
 
  - [ ] Build or use an advanced searching algorithm
  - [ ] Search script still returns results even if you have spelling errors
@@ -32,7 +32,7 @@ Web Developer Test
  - [ ] Store user's recent searches
  - [ ] Clean coding style
 
-**[data.json](https://github.com/theartgames/test/blob/master/data.json) Fields explanation**
+**[data.json](https://github.com/theartgames/webdeveloper-test/blob/master/data.json) Fields explanation**
 
  - *aname*
 	 - (string) Artist Name (you can treat it as manufacturer/brand)
@@ -64,7 +64,7 @@ Web Developer Test
 ## License
 ![License](https://i.creativecommons.org/l/by-nc/4.0/80x15.png)
 
-[Art Games - Web Developer Test](https://github.com/theartgames/test) by [ART GAMES](http://www.artgames.ro) is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/).
+[Art Games - Web Developer Test](https://github.com/theartgames/webdeveloper-test) by [ART GAMES](http://www.artgames.ro) is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/).
 
 ## Contributors
 
