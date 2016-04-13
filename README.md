@@ -1,5 +1,6 @@
 Web Developer Test
 =
+
 **You have**
 
  - [data.json](https://github.com/theartgames/webdeveloper-test/blob/master/data.json) which contains a product list (fields described below)
@@ -34,32 +35,21 @@ Web Developer Test
 
 **[data.json](https://github.com/theartgames/webdeveloper-test/blob/master/data.json) Fields explanation**
 
- - *aname*
-	 - (string) Artist Name (you can treat it as manufacturer/brand)
- - *pname*
-	 - (string) Product Name
- - *pdesc*
-	 - (string) Product Description
- - *psdesc*
-	 - (string) Product Short Description
- - *sku*
-	 - (string) Product Code
- - *url*
-	 - (string) Product URL
- - *img*, *img_**
-	 - (string) Product main image with various dimensions
- - *all_images*
-	 - (array) all product images listed as array
- - *lot_nr*
-	 - (numeric) Lot number (you can treat it as ordering number)
- - *lot_emin*
-	 - (numeric) Informative price meaning "Minimum Estimate"
- - *lot_emax*
-	 - (numeric) Informative price meaning "Maximum Estimate"
- - *lot_est*
-	 - (string) Concatenation of lot_emin and lot_emax
- - *auction*
-	 - (string) Product category
+| Field      	| Type    	| Description                                          	|
+|------------	|---------	|------------------------------------------------------	|
+| **aname**      	| string  	| Artist Name (you can treat it as manufacturer/brand) 	|
+| **pname**      	| string  	| Product Name                                         	|
+| **pdesc**      	| string  	| Product Description                                  	|
+| **sku**        	| string  	| Product Code                                         	|
+| **url**        	| string  	| Product URL                                          	|
+| **img, img_*** 	| string  	| Product main image with various dimensions            	|
+| **all_images** 	| array   	| All product images listed as array                   	|
+| **lot_nr**    	| numeric 	| Lot number (you can treat it as ordering number)     	|
+| **lot_emin**   	| numeric 	| Informative price meaning "Minimum Estimate"         	|
+| **lot_emax**   	| numeric 	| Informative price meaning "Maximum Estimate"         	|
+| **lot_est**    	| string  	| Concatenation of lot_emin and lot_emax               	|
+| **auction**   	| string  	| Product category                                     	|
+
 
 ## License
 ![License](https://i.creativecommons.org/l/by-nc/4.0/80x15.png)
