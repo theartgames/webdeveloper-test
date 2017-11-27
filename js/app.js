@@ -5,11 +5,13 @@ function clearTarget() {
 }
 
 function alertErrorMessage(message) {
+  let target = $('#result');
   target.html('<div class="alert alert-danger">' + message + '</div>');
 }
 
 function populateResult(response) {
   let template = $('#template').html();
+  let target = $('#result');
   response.forEach(function(object){
     target.append(template.formatString(object));
   });
