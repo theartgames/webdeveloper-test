@@ -19,8 +19,8 @@ Web Developer Test
 
 **You must**
 
- - [ ] Build a search script that traverse [data.json](https://github.com/theartgames/webdeveloper-test/blob/master/data.json) and returns search results based on input
- - [ ] Build a basic interface (HTML/CSS) that uses the script above and outputs results
+ - [x] Build a search script that traverse [data.json](https://github.com/theartgames/webdeveloper-test/blob/master/data.json) and returns search results based on input
+ - [x] Build a basic interface (HTML/CSS) that uses the script above and outputs results
 
 **You may consider** (*optional but grants extra XP points*)
 
@@ -29,9 +29,9 @@ Web Developer Test
  - [ ] Search script returns related results if nothing is found for user's input
  - [ ] Interface has working filters based on fields
  - [ ] Interface has working sorting options
- - [ ] Search and show results without leaving or refreshing the page
+ - [x] Search and show results without leaving or refreshing the page
  - [ ] Store user's recent searches
- - [ ] Clean coding style
+ - [x] Clean coding style
 
 **[data.json](https://github.com/theartgames/webdeveloper-test/blob/master/data.json) Fields explanation**
 
