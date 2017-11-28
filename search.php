@@ -10,9 +10,9 @@ $data = json_decode($jsonContent, true);
 
 $result = [];
 
-$sort = $_POST['sort'];
+$sort = trim(strip_tags($_POST['sort']));
 
-$parameter = $_POST['param'];
+$parameter = trim(strip_tags($_POST['param']));
 
 foreach ($data as $item) {
     $subject = $item['aname'];
