@@ -32,12 +32,12 @@ foreach ($data as $item) {
     }
 }
 
-$result2 = $result;
+$copyResult = $result;
 
-$result = array();
+$result = [];
 
-$arrTemp = array();
-foreach ($result2 as $k => $v) {
+$arrTemp = [];
+foreach ($copyResult as $k => $v) {
 	$arrTemp[$k] = $v[$parameter];
 }
 
@@ -48,7 +48,7 @@ if ($sort === 'asc') {
 }
 
 foreach ($arrTemp as $k => $v) {
-	$result[] = $result2[$k];
+	$result[] = $copyResult[$k];
 }
 
 header('Content-Type: application/json');
