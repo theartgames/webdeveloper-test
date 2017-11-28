@@ -34,7 +34,9 @@ $(document).ready(function(){
       data: {
         query: querySearch,
         pname: $('#check-pname').prop('checked'),
-        pdesc: $('#check-pdesc').prop('checked')
+        pdesc: $('#check-pdesc').prop('checked'),
+        sort: $('#sort').val(),
+        param: $('#parameter').val()
       }
     }).success(function(response){
       clearTarget();

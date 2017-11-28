@@ -10,6 +10,10 @@ $data = json_decode($jsonContent, true);
 
 $result = [];
 
+$sort = $_POST['sort'];
+
+$parameter = $_POST['param'];
+
 foreach ($data as $item) {
     $subject = $item['aname'];
 
@@ -28,6 +32,24 @@ foreach ($data as $item) {
     }
 }
 
+$result2 = $result;
+
+$result = array();
+
+$arrTemp = array();
+foreach ($result2 as $k => $v) {
+	$arrTemp[$k] = $v[$parameter];
+}
+
+if ($sort === 'asc') {
+	asort($arrTemp);
+} else {
+	arsort($arrTemp);
+}
+
+foreach ($arrTemp as $k => $v) {
+	$result[] = $result2[$k];
+}
 
 header('Content-Type: application/json');
 echo json_encode($result);
