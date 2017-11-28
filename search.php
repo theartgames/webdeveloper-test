@@ -11,11 +11,17 @@ $data = json_decode($jsonContent, true);
 $result = [];
 
 foreach ($data as $item) {
-    $subject = $item['aname']
-        . ' ' . $item['pname']
-        . ' ' . $item['pdesc']
-        . ' ' . $item['psdesc']
-    ;
+    $subject = $item['aname'];
+
+    if ($_POST['pname'] === 'true') {
+    	$subject .= ' ' . $item['pname'];
+    }
+
+    if ($_POST['pdesc'] === 'true') {
+    	$subject .= ' ' . $item['pdesc'];
+    }
+        
+    $subject .= ' ' . $item['psdesc'];
 
     if (preg_match('/' . $query . '/i', $subject) === 1) {
         $result[] = $item;

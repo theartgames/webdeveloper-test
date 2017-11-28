@@ -32,7 +32,9 @@ $(document).ready(function(){
       type: 'post',
       dataType: 'json',
       data: {
-        query: querySearch
+        query: querySearch,
+        pname: $('#check-pname').prop('checked'),
+        pdesc: $('#check-pdesc').prop('checked')
       }
     }).success(function(response){
       clearTarget();

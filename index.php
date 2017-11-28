@@ -17,6 +17,19 @@
         <div class="col-sm-6 col-sm-offset-3 text-center">
             <h3>Search</h3>
             <input type="text" class="form-control" id="search" placeholder="Jane Doe">
+            <label class="btn btn-secondary">
+                <input type="checkbox" id="check-pname" autocomplete="off" /> Product Name
+            </label>
+            <label class="btn btn-secondary">
+                <input type="checkbox" id="check-pdesc" autocomplete="off" /> Product Description
+            </label>
+            <span class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Sort<span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">asc</a></li>
+                    <li><a href="#">desc</a></li>
+                </ul>
+            <span>
         </div>
     </div>
 
