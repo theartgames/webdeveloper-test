@@ -14,6 +14,8 @@ $sort = trim(strip_tags($_POST['sort']));
 
 $parameter = trim(strip_tags($_POST['param']));
 
+file_put_contents('searches.log', $query . PHP_EOL, FILE_APPEND);
+
 foreach ($data as $item) {
     $subject = $item['aname'];
 
@@ -40,6 +42,8 @@ $arrTemp = [];
 foreach ($copyResult as $k => $v) {
 	$arrTemp[$k] = $v[$parameter];
 }
+unset($k);
+unset($v);
 
 if ($sort === 'asc') {
 	asort($arrTemp);
