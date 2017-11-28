@@ -1,0 +1,22 @@
+{
+  "name": "the-art-games",
+  "version": "1.0.0",
+  "description": "Web Developer Test =",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theartgames/webdeveloper-test.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theartgames/webdeveloper-test/issues"
+  },
+  "homepage": "https://github.com/theartgames/webdeveloper-test#readme",
+  "dependencies": {
+    "kisphp-format-string": "^1.1.1"
+  }
+}
