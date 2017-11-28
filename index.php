@@ -18,10 +18,10 @@
             <h3>Search</h3>
             <input type="text" class="form-control" id="search" placeholder="Jane Doe">
             <label class="btn btn-secondary">
-                <input type="checkbox" id="check-pname" autocomplete="off" /> Product Name
+                <input type="checkbox" id="check-pname" class="filter-checkbox" autocomplete="off" /> Product Name
             </label>
             <label class="btn btn-secondary">
-                <input type="checkbox" id="check-pdesc" autocomplete="off" /> Product Description
+                <input type="checkbox" id="check-pdesc" class="filter-checkbox" autocomplete="off" /> Product Description
             </label>
             Sort by <select name="parameter" id="parameter" class="filter-element">
                 <option value="id">Product Id</option>
@@ -38,7 +38,7 @@
 
     <div class="row">
         <p>&nbsp;</p>
-        <div class="col-sm-12" id="result">-result aici-</div>
+        <div class="col-sm-12" id="result"></div>
     </div>
 
     <div class="hidden" id="template">

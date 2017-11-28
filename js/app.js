@@ -17,17 +17,14 @@ function populateResult(response) {
   });
 }
 
-$(document).ready(function(){
-  $('#search').keyup(function(e){
-    e.preventDefault();
+function doSearch() {
+  let querySearch = $('#search').val();
 
-    let querySearch = $('#search').val();
+  if (querySearch.length < 1) {
+    return;
+  }
 
-    if (querySearch.length < 1) {
-      return;
-    }
-
-    $.ajax({
+  $.ajax({
       url: '/search.php',
       type: 'post',
       dataType: 'json',
@@ -46,6 +43,18 @@ $(document).ready(function(){
       }
 
       populateResult(response);
-    });
+  });
+}
+
+$(document).ready(function(){
+  $('#search').keyup(function(e){
+    e.preventDefault();
+
+    doSearch();
+  });
+  $('.filter-element, .filter-checkbox').change(function(e){
+    e.preventDefault();
+
+    doSearch();
   });
 });
