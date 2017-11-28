@@ -23,13 +23,10 @@
             <label class="btn btn-secondary">
                 <input type="checkbox" id="check-pdesc" autocomplete="off" /> Product Description
             </label>
-            <span class="dropdown">
-                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Sort<span class="caret"></span></button>
-                <ul class="dropdown-menu">
-                    <li><a href="#">asc</a></li>
-                    <li><a href="#">desc</a></li>
-                </ul>
-            <span>
+            Sort <select name="sort" id="sort" class="filter-element">
+                <option value="asc">asc</option>
+                <option value="desc">desc</option>
+            </select>
         </div>
     </div>
 
@@ -49,6 +46,8 @@
                 <p>{pname}</p>
                 <p>{pdesc}</p>
                 <p>{psdesc}</p>
+                <p>{sku}</p>
+                <p>{url}</p>
             </div>
         </div>
     </div>
