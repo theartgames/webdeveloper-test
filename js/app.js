@@ -1,12 +1,9 @@
 function clearTarget() {
-  let target = $('#result');
-
-  target.html('');
+  $('#result').html('');
 }
 
 function alertErrorMessage(message) {
-  let target = $('#result');
-  target.html('<div class="alert alert-danger">' + message + '</div>');
+  $('#result').html('<div class="alert alert-danger">' + message + '</div>');
 }
 
 function populateResult(response) {
