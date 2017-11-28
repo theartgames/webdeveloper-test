@@ -27,6 +27,12 @@
                 <option value="asc">asc</option>
                 <option value="desc">desc</option>
             </select>
+            <select name="parameter" id="parameter" class="filter-element">
+                <option value="id">Product Id</option>
+                <option value="aname">Artist Name</option>
+                <option value="pname">Product Name</option>
+                <option value="pdesc">Product Description</option>
+            </select>
         </div>
     </div>
 
