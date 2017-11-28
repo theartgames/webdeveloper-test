@@ -27,10 +27,10 @@ Web Developer Test
  - [ ] Build or use an advanced searching algorithm
  - [ ] Search script still returns results even if you have spelling errors
  - [ ] Search script returns related results if nothing is found for user's input
- - [ ] Interface has working filters based on fields
- - [ ] Interface has working sorting options
+ - [x] Interface has working filters based on fields
+ - [x] Interface has working sorting options
  - [x] Search and show results without leaving or refreshing the page
- - [ ] Store user's recent searches
+ - [x] Store user's recent searches
  - [x] Clean coding style
 
 **[data.json](https://github.com/theartgames/webdeveloper-test/blob/master/data.json) Fields explanation**
