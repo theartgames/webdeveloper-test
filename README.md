@@ -14,7 +14,6 @@ Web Developer Test
  - Use the following languages: JS, PHP
  - Make mistakes
  - Fork/Star/Download this repository and create pull requests for test improvements
- - Improve this test
  - Be creative
 
 **You must**
