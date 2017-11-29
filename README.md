@@ -13,7 +13,7 @@ Web Developer Test
  - Import or use any libraries you want as long as you add reference to them
  - Use the following languages: JS, PHP
  - Make mistakes
- - Fork/Star/Download this repository and create pull requests
+ - Fork/Star/Download this repository and create pull requests for test improvements
  - Improve this test
  - Be creative
 
